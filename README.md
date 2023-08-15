@@ -1,7 +1,7 @@
 # EKF Quaternion Based Attitude Estimation
 This is a quaternion-based Extended Kalman filter for real-time estimation of the orientation of a UAV.
 
-I tested with the STEVAL-STLCS02V1 (SensorTile) evolution board. I used the lsm303agr accelerometer-magnetometer and lsm6dsm gyroscope sensors on the board. I tested it with the STM32L476JG microcontroller that this board is equipped with.
+I tested with the STEVAL-STLCS02V1 (SensorTile) evolution board equipped with the STM32L476JG microcontroller. I used the lsm303agr accelerometer-magnetometer and lsm6dsm gyroscope sensors on the board.
 
 ## How To Use
 ```c
